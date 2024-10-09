@@ -29,8 +29,8 @@
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
-                            "name": "renesas-tools",
-                            "version": "latest"  // Update this with the actual version if known
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
                         }
                     ]
                 }
