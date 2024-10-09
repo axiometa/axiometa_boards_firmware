@@ -5,9 +5,6 @@
       "maintainer": "Povilas Dumcius",
       "websiteURL": "https://axiometa.ai",
       "email": "info@axiometa.ai",
-      "help": {
-        "online": "https://axiometa.ai/docs"
-      },
       "platforms": [
         {
           "name": "Axiometa Core",
@@ -18,9 +15,6 @@
           "archiveFileName": "axiometa.zip",
           "checksum": "SHA-256:58bea99df8ade1601bc3d1b33eaf31f65c12c02437b53708245c7600a8a6af0",
           "size": "201262744",
-          "help": {
-            "online": "https://github.com/axiometa/axiometa_boards_firmware/issues"
-          },
           "boards": [
             {
               "name": "Axiometa Core",
@@ -30,123 +24,13 @@
           "toolsDependencies": [
             {
               "packager": "arduino",
-              "name": "openocd",
-              "version": "0.11.0-arduino2"
-            },
-            {
-              "packager": "arduino",
               "name": "arm-none-eabi-gcc",
               "version": "7-2017q4"
-            },
-            {
-              "packager": "arduino",
-              "name": "dfu-util",
-              "version": "0.11.0-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.9.1-arduino5"
-            }
-          ],
-          "discoveryDependencies": [
-            {
-              "packager": "builtin",
-              "name": "dfu-discovery"
             }
           ]
         }
       ],
-      "tools": [
-        {
-          "name": "openocd",
-          "version": "0.11.0-arduino2",
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "url": "http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-darwin_amd64.tar.gz",
-              "archiveFileName": "openocd-0.11.0-arduino2-darwin_amd64.tar.gz",
-              "size": "6144000",
-              "checksum": "SHA-256:xxxxx"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-linux_amd64.tar.gz",
-              "archiveFileName": "openocd-0.11.0-arduino2-linux_amd64.tar.gz",
-              "size": "6144000",
-              "checksum": "SHA-256:xxxxx"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-linux_386.tar.gz",
-              "archiveFileName": "openocd-0.11.0-arduino2-linux_386.tar.gz",
-              "size": "6144000",
-              "checksum": "SHA-256:xxxxx"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-windows_386.tar.gz",
-              "archiveFileName": "openocd-0.11.0-arduino2-windows_386.tar.gz",
-              "size": "6144000",
-              "checksum": "SHA-256:xxxxx"
-            }
-          ]
-        },
-        {
-          "name": "dfu-util",
-          "version": "0.11.0-arduino5",
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-darwin_amd64.tar.gz",
-              "archiveFileName": "dfu-util-0.11-arduino5-darwin_amd64.tar.gz",
-              "size": "72429",
-              "checksum": "SHA-256:9e576c6e44f54b1e921a43ea77bcc08ec99e0e4e0905f4b9acf9ab2c979f0a22"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_amd64.tar.gz",
-              "archiveFileName": "dfu-util-0.11-arduino5-linux_amd64.tar.gz",
-              "size": "2283425",
-              "checksum": "SHA-256:96c64c278561af806b585c123c85748926ad02b1aedc07e5578ca9bee2be0d2a"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_386.tar.gz",
-              "archiveFileName": "dfu-util-0.11-arduino5-linux_386.tar.gz",
-              "size": "2524406",
-              "checksum": "SHA-256:9a707692261e5710ed79a6d8a4031ffd0bfe1e585216569934346e9b2d68d0c2"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-windows_386.tar.gz",
-              "archiveFileName": "dfu-util-0.11-arduino5-windows_386.tar.gz",
-              "size": "571340",
-              "checksum": "SHA-256:6451e16bf77600fe2436c8708ab4b75077c49997cf8bedf03221d9d6726bb641"
-            }
-          ]
-        },
-        {
-          "name": "bossac",
-          "version": "1.9.1-arduino5",
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-osx.tar.gz",
-              "archiveFileName": "bossac-1.9.1-arduino5-osx.tar.gz",
-              "size": "47862",
-              "checksum": "SHA-256:c76eae00874a44265029b452303fb355e9ffa006e7ba214ca7ae01b1416867da"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linux_amd64.tar.gz",
-              "archiveFileName": "bossac-1.9.1-arduino5-linux_amd64.tar.gz",
-              "size": "47862",
-              "checksum": "SHA-256:xxxxxxxxxxxx"
-            }
-          ]
-        }
-      ]
+      "tools": []
     }
   ]
 }
