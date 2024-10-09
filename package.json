@@ -9,9 +9,9 @@
                 {
                     "name": "Axiometa Core",
                     "architecture": "renesas", 
-                    "version": "1.0.0",
+                    "version": "0.0.1",
                     "category": "Contributed",
-                    "url": "https://raw.githubusercontent.com/axiometa/axiometa_boards_firmware/main/axiometa.zip",
+                    "url": "https://drive.google.com/uc?export=download&id=1MsSAP7_gnkeiT0RXXkaJgUg2xuKORvFN",
                     "archiveFileName": "axiometa.zip",
                     "checksum": "SHA-256:58bea99df8ade1601bc3d1b33eaf31f65c12c02437b53708245c7600a8a6af0",
                     "size": "201262744",
@@ -21,11 +21,6 @@
                             "id": "axiometa:Core"
                         }
                     ],
-                    "upload": {
-                        "maximum_size": "32768",
-                        "speed": "115200",
-                        "protocol": "arduino"
-                    },
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
