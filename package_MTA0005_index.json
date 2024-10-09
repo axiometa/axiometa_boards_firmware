@@ -11,15 +11,88 @@
           "version": "0.0.1",
           "category": "Contributed",
           "url": "https://drive.google.com/uc?export=download&id=1nrO8Hn6vqxhz-6OaJ6xwuCziyuw2CiEr",
-          "archiveFileName": "0.0.1.zip",
+          "archiveFileName": "axiometa.zip",
           "checksum": "SHA-256:cc11114bae85bf0eade9723958ee9b4d8448963b86029721fc57f1eac578d31c",
-          "size": "9598918",
+          "size": "201262744",
           "boards": [
             {
               "name": "Axiometa Core"
             }
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5",
+              "systems": [
+                {
+                  "host": "i386-apple-darwin11",
+                  "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-osx.tar.gz",
+                  "archiveFileName": "dfu-util-0.11-arduino5-osx.tar.gz",
+                  "size": 72429,
+                  "checksum": "SHA-256:9e576c6e44f54b1e921a43ea77bcc08ec99e0e4e0905f4b9acf9ab2c979f0a22"
+                },
+                {
+                  "host": "x86_64-linux-gnu",
+                  "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_amd64.tar.gz",
+                  "archiveFileName": "dfu-util-0.11-arduino5-linux_amd64.tar.gz",
+                  "size": 2283425,
+                  "checksum": "SHA-256:96c64c278561af806b585c123c85748926ad02b1aedc07e5578ca9bee2be0d2a"
+                },
+                {
+                  "host": "i686-linux-gnu",
+                  "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_386.tar.gz",
+                  "archiveFileName": "dfu-util-0.11-arduino5-linux_386.tar.gz",
+                  "size": 2524406,
+                  "checksum": "SHA-256:9a707692261e5710ed79a6d8a4031ffd0bfe1e585216569934346e9b2d68d0c2"
+                }
+              ]
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5",
+              "systems": [
+                {
+                  "host": "x86_64-apple-darwin",
+                  "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-osx.tar.gz",
+                  "archiveFileName": "bossac-1.9.1-arduino5-osx.tar.gz",
+                  "size": 47862,
+                  "checksum": "SHA-256:c76eae00874a44265029b452303fb355e9ffa006e7ba214ca7ae01b1416867da"
+                },
+                {
+                  "host": "x86_64-linux-gnu",
+                  "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linux_amd64.tar.gz",
+                  "archiveFileName": "bossac-1.9.1-arduino5-linux_amd64.tar.gz",
+                  "size": 399674,
+                  "checksum": "SHA-256:ef80d247c431db2686a3e6728cb4897b708b92cd67687100c125684f3c12fc80"
+                },
+                {
+                  "host": "i686-linux-gnu",
+                  "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linux_386.tar.gz",
+                  "archiveFileName": "bossac-1.9.1-arduino5-linux_386.tar.gz",
+                  "size": 1260650,
+                  "checksum": "SHA-256:99e1982cf29600152e1c89b3389c1b4ce853201491ed52a12b4a327200cc6af0"
+                }
+              ]
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
         }
       ]
     }
