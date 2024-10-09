@@ -1,14 +1,13 @@
 {
   "packages": [
     {
-      "name": "Axiometa Boards",
+      "name": "Axiometa",
       "maintainer": "Povilas Dumcius",
       "websiteURL": "https://axiometa.ai",
-      "email": "info@axiometa.ai",
       "platforms": [
         {
-          "name": "Axiometa Core",
-          "architecture": "renesas",
+          "name": "Axiometa Boards",
+          "architecture": "arm",
           "version": "0.0.1",
           "category": "Contributed",
           "url": "https://drive.google.com/uc?export=download&id=1MsSAP7_gnkeiT0RXXkaJgUg2xuKORvFN",
@@ -17,20 +16,12 @@
           "size": "201262744",
           "boards": [
             {
-              "name": "Axiometa Core",
-              "id": "axiometa:Core"
+              "name": "Axiometa Core"
             }
           ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
-            }
-          ]
+          "toolsDependencies": []
         }
-      ],
-      "tools": []
+      ]
     }
   ]
 }
