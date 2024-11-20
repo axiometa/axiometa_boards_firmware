@@ -10,10 +10,10 @@
           "architecture": "arm",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://drive.google.com/uc?export=download&id=1nrO8Hn6vqxhz-6OaJ6xwuCziyuw2CiEr",
+          "url": "https://drive.google.com/uc?export=download&id=1zM8P0J4yd5wlpnA53KxAGf1UZtNxWMXB",
           "archiveFileName": "0.0.1.zip",
-          "checksum": "SHA-256:cc11114bae85bf0eade9723958ee9b4d8448963b86029721fc57f1eac578d31c",
-          "size": "9598918",
+          "checksum": "SHA-256:85b642b420530c9537aae279abd5a47322cc6de10c412ee25f12fd141b82af1f",
+          "size": "9565363",
           "boards": [
             {
               "name": "Axiometa Core"
